@@ -1,8 +1,8 @@
-<!-- i used claude for some of this -->
+<!-- DISCLAIMER: sorry i used claude for some of this -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>ALICE CHEN — Portfolio</title>
@@ -15,9 +15,11 @@
 </head>
 <body>
 
+<!-- ===== The 3D background canvas. Do not delete. ===== -->
 <canvas id="space-canvas" aria-hidden="true"></canvas>
 <div id="loading"><div class="spinner"></div></div>
 
+<!-- ===== Navigation ===== -->
 <header class="site-header">
   <a href="#home" class="logo">TOP</a>
 
@@ -77,7 +79,9 @@
         <!-- ✏️ EDIT: a sentence about your art -->
         Actual portfolio-worthy work coming soon, these are just some of my sketches + concept art. All of them were made recently. I mainly use my imagination while drawing adversed to references.
       </p>
-      
+
+      <!-- ✏️ EDIT: one <figure> per piece.
+           Put your image files in the images/ folder and change the src. -->
       <div class="gallery">
 
         <figure class="art-card">
@@ -190,13 +194,33 @@
           </figcaption>
         </figure>
 
- <figure class="art-card">
+        <figure class="art-card">
           <div class="art-frame">
             <img src="images/art-12.jpeg" alt="clothing design" loading="lazy">
           </div>
           <figcaption>
             <h3>clothing design 2</h3>
             <p>procreate + ipad pro</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-15.png" alt="clothing design" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>blocky dragon asset</h3>
+            <p>rblx studio</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-08.gif" alt="clothing design" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>blocky animal assets</h3>
+            <p>rblx studio</p>
           </figcaption>
         </figure>
 
@@ -212,9 +236,11 @@
       <p class="eyebrow">02 — Work</p>
       <h2 class="page-title">TECHNICAL PROJECTS</h2>
       <p class="page-lede">
+        <!-- ✏️ EDIT: a sentence about your project work -->
         Contact me to learn more about these!.
       </p>
 
+      <!-- ✏️ EDIT: one <article> per project. Copy/paste a block to add more. -->
       <div class="project-list">
 
         <article class="project">
@@ -264,6 +290,7 @@
 
       </div>
 
+      <!-- ✏️ EDIT: your contact links -->
       <footer class="site-footer">
         <p>contact me?</p>
         <div class="footer-links">
@@ -277,6 +304,7 @@
 
 </main>
 
+<!-- ===== Three.js, loaded from a free CDN ===== -->
 <script type="importmap">
 {
   "imports": {
@@ -287,6 +315,10 @@
 </script>
 <script type="module" src="js/scene.js"></script>
 <script src="js/main.js"></script>
+
+</body>
+</html>
+
 
 </body>
 </html>
