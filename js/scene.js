@@ -37,13 +37,13 @@ const SETTINGS = {
      reappears on the left and does it again.
      ------------------------------------------------------------ */
   catScale:   1.3,
-  catSpeed:   0.8,   // units per second. Lower = slower crossing.
+  catSpeed:   1.0,   // units per second. Lower = slower crossing.
                      // As set, one crossing takes about 24 seconds.
-  catFrom:   -13,    // x it enters from (off the left edge)
-  catTo:      15,    // x it exits at (off the right edge)
+  catFrom:   -10,    // x it enters from (off the left edge)
+  catTo:      10,    // x it exits at (off the right edge)
   catY:      -2.3,   // height on screen. Negative = lower down.
   catZ:       -2.7,    // depth. More negative = further away = smaller.
-  catBob:     0.9,  // how much it bobs up and down as it travels
+  catBob:     1.3,  // how much it bobs up and down as it travels
   catSpin:    0.05,  // how fast it slowly turns as it goes (0 = no turning)
 
   // If your cat ends up facing backwards or sideways, spin it here.
