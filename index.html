@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>ALICE CHEN — Portfolio</title>
+<meta name="description" content="Portfolio of Alice Chen — artwork and projects.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== The 3D background canvas. Do not delete. ===== -->
+<canvas id="space-canvas" aria-hidden="true"></canvas>
+<div id="loading"><div class="spinner"></div></div>
+
+<!-- ===== Navigation ===== -->
+<header class="site-header">
+  <a href="#home" class="logo">RC</a>
+
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="site-nav">
+    <a href="#home"     data-page="home">About</a>
+    <a href="#artwork"  data-page="artwork">Artwork</a>
+    <a href="#projects" data-page="projects">Projects</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============================================================ -->
+  <!-- PAGE 1 — TITLE / ABOUT ME                                     -->
+  <!-- ============================================================ -->
+  <section class="page is-hero" id="home">
+    <div class="hero-inner">
+      <!-- ✏️ EDIT: your name and tagline -->
+      <p class="eyebrow">Multi-Media Portfolio</p>
+      <h1 class="hero-title">ALICE&nbsp;CHEN</h1>
+      <p class="hero-sub">Astrophysics Major, Creative Freelancer</p>
+
+      <!-- ✏️ EDIT: your about-me paragraph -->
+      <p class="hero-body">
+        I've figured as though my major cannot express my love for creating, so here is my (unfinished) portfolio.
+  <br><br>
+       My name is Alice and I <b>draw, I code, I 3D-model and make anything everywhere from robots, to concept art, to designs, to animations.
+  <br><br>
+       <i>If there exists a sector between art and science, I will likely be there.</i>
+
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#artwork">ARTWORK</a>
+        <a class="btn btn-ghost" href="#projects">PROJECTS</a>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span>scroll</span>
+      <div class="cue-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- PAGE 2 — ARTWORK                                              -->
+  <!-- ============================================================ -->
+  <section class="page" id="artwork">
+    <div class="page-inner">
+      <p class="eyebrow">01 — Gallery</p>
+      <h2 class="page-title">ARTWORK</h2>
+      <p class="page-lede">
+        <!-- ✏️ EDIT: a sentence about your art -->
+        Actual portfolio-worthy work coming soon, these are just some of my sketches + concept art. All of them were made recently. I mainly use my imagination while drawing adversed to references.
+      </p>
+
+      <!-- ✏️ EDIT: one <figure> per piece.
+           Put your image files in the images/ folder and change the src. -->
+      <div class="gallery">
+
+        <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-01.png" alt="20 minute sketch" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>20 minute sketch</h3>
+            <p>procreate + ipad pro</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-05.png" alt="'the boxer' upcoming animation" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>'The Boxer' upcoming concept animation</h3>
+            <p>procreate + ipad pro</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-03.jpeg" alt="'the boxer' concept art" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>'The Boxer' concept art</h3>
+            <p>ibis paint + ipad pro</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-02.png" alt="character concept" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>character concept</h3>
+            <p>procreate + ipad pro</p>
+          </figcaption>
+        </figure>
+
+     <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/fox.gif" alt="running fox anim" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>running fox anim</h3>
+            <p>procreate + ipad pro, 16fps</p>
+          </figcaption>
+        </figure>
+
+         <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-04.png" alt="landscape concept art" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>landscape concept art</h3>
+            <p>procreate + ipad pro</p>
+          </figcaption>
+        </figure>
+
+         <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-06.jpeg" alt="music video title screen" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>music video title screen</h3>
+            <p>procreate + ipad pro</p>
+          </figcaption>
+        </figure>
+
+         <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-07.jpeg" alt="protestant sketch" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>"love never dies" protestant sketch</h3>
+            <p>pencil + pen</p>
+          </figcaption>
+        </figure>
+
+         <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-09.jpeg" alt="1.5 hour sketch" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>1.5 hour sketch</h3>
+            <p>pencil + paper</p>
+          </figcaption>
+        </figure>
+
+         <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-10.jpeg" alt="random sketch" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>random sketch</h3>
+            <p>pencil + paper</p>
+          </figcaption>
+        </figure>
+
+         <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-11.png" alt="clothing design" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>clothing design</h3>
+            <p>procreate </p> + ipad pro</p>
+          </figcaption>
+        </figure>
+
+ <figure class="art-card">
+          <div class="art-frame">
+            <img src="images/art-12.jpeg" alt="clothing design" loading="lazy">
+          </div>
+          <figcaption>
+            <h3>clothing design 2</h3>
+            <p>procreate + ipad pro</p>
+          </figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- PAGE 3 — PROJECTS                                             -->
+  <!-- ============================================================ -->
+  <section class="page" id="projects">
+    <div class="page-inner">
+      <p class="eyebrow">02 — Work</p>
+      <h2 class="page-title">PROJECTS</h2>
+      <p class="page-lede">
+        <!-- ✏️ EDIT: a sentence about your project work -->
+        Analytics, dashboards, and the occasional thing with a circuit board in it.
+      </p>
+
+      <!-- ✏️ EDIT: one <article> per project. Copy/paste a block to add more. -->
+      <div class="project-list">
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="project-year">2026</span>
+            <span class="project-tags">Power BI · SQL</span>
+          </div>
+          <div class="project-body">
+            <h3>Project Title One</h3>
+            <p>
+              One or two sentences on what the problem was, what you built, and
+              what changed because of it. Keep it plain.
+            </p>
+            <a class="project-link" href="#" target="_blank" rel="noopener">View project →</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="project-year">2026</span>
+            <span class="project-tags">Tableau · Excel</span>
+          </div>
+          <div class="project-body">
+            <h3>Project Title Two</h3>
+            <p>
+              One or two sentences on what the problem was, what you built, and
+              what changed because of it.
+            </p>
+            <a class="project-link" href="#" target="_blank" rel="noopener">View project →</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="project-year">2025</span>
+            <span class="project-tags">Arduino · Web</span>
+          </div>
+          <div class="project-body">
+            <h3>Project Title Three</h3>
+            <p>
+              One or two sentences on what the problem was, what you built, and
+              what changed because of it.
+            </p>
+            <a class="project-link" href="#" target="_blank" rel="noopener">View project →</a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- ✏️ EDIT: your contact links -->
+      <footer class="site-footer">
+        <p>contact me?</p>
+        <div class="footer-links">
+          <a href="mailto:alicej.chhn@gmail.com">Email</a>
+          <a href="https://linkedin.com/in/alicejchen" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Three.js, loaded from a free CDN ===== -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.169.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.169.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="js/scene.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
